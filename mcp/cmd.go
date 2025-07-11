@@ -19,6 +19,11 @@ type CommandTransport struct {
 	cmd *exec.Cmd
 }
 
+type Sebas struct {
+	Name string
+	Age  int
+}
+
 // NewCommandTransport returns a [CommandTransport] that runs the given command
 // and communicates with it over stdin/stdout.
 //
